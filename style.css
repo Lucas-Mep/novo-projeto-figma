@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 47px;
+}
+    
+    
+.link-header {
+    font-size: 25px;
+    width: 87px;
+    height: 20px;
+    font-weight: 800px;
+    cursor: pointer ;
+    color: #423131;
+    line-height: 110px;
+    margin-right: 16px;
+}
+
+.sign-up:hover {
+    background-color: #423131;
+}
+
+.sign-up:active {
+    opacity: 0.8;
+}
+
+button {
+    background: rgb(45, 231, 45);
+    color: rgb(247, 247, 247);
+    font-size: 20px;
+    border: 3px solid;
+    border-radius: 18px;
+    width: 120px;
+    height: 50px;
+    font-weight: 600px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+img {
+    width: 410px;
+    height: 460px;
+    margin-left: 65px;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 82px;
+    letter-spacing: 0.59px;
+    color: #515151;
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 55px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #515151; 
+    width: 520px;
+}
+
+.button-main {
+    font-weight: 400;
+    width: 162px;
+    height: 87px;
+    font-size: 20px;
+    color: #388f0a;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+
+}
+
+.button-main:hover {
+    opacity: 0.8;
+}
+
+.button-main:active {
+    opacity: 0.6;
+}
